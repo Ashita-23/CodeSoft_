@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-family: "Playfair Display", serif;
+    }
+
+
+.nl-section{
+    border: 1px solid red;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+
+.nl-heading{
+    font-size: 2.5rem;
+    color: rgb(77, 89, 100);
+    font-weight: 600;
+   
+}
+
+.nl-heading-text{
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(10, 10, 10);
+}
+
+/* new launch cards styling*/
+
+.nl-cards-container{
+    border: 1px solid blue;
+    display:flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.nl-cards-outer{
+    border: 1px solid red;
+    height: auto;
+    width: 20rem;
+    background-color: rgb(241,241,241);
+    display:flex ;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-radius: 4px;
+    padding-bottom: 0.5rem;
+}
+
+.nl-cards{
+    width: 400px;
+    height: 300px;
+    
+}
+.nl-cards-img{
+    width: 100%;
+    /* width: 350px; */
+    height: 180px;
+}
+
+.nl-cards-discreption-box{
+    background-color: white;
+    border: 1px solid red;
+    height: auto;
+    width: 90%;
+    margin-top: -1rem;
+    border-radius: 4px;
+    padding: 0.2rem 0.5rem;
+    padding-bottom: 0.8rem;
+}
+
+
+
+.nl-cards-icon{
+    margin-top: -1.5rem;
+    margin-left: 0.5rem;
+    height: 2.5rem
+}
+
+.nl-icone-container{
+    display:flex ;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.nl-icone-list{
+    display:flex ;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    /* list-style-type: none; */
+    border: 1px solid red;
+    padding-left: 0;
+}
+
+.nl-icone-list li{
+    font-size: 0.7rem;
+    color: rgb(117, 89, 89);
+   margin: 0rem 0.2rem;
+}
+
+.nl-primary-icons{
+    display:flex ;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* list-style-type: none; */
+
+    border: 1px solid red;
+    padding-left: 0;
+}
+.nl-primary-icons li{
+    font-size: 0.9rem;
+    padding: 0.2rem 0.5rem;
+  margin: 0px 2px;
+    border-radius: 100%;
+    color: rgb(99, 98, 98);
+    background-color: rgb(226, 225, 225);
+}
+.nl-cards-title{
+    font-size: 0.9rem;
+}
+.nl-cards-text{
+    font-size: 0.8rem;
+}
+
+.nl-cards-footer{
+    display:flex ;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}

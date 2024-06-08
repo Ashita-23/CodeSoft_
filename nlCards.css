@@ -18,14 +18,18 @@
 .nl-heading{
     font-size: 2.5rem;
     color: rgb(77, 89, 100);
-    font-weight: 600;
+    font-weight: 800;
    
 }
 
 .nl-heading-text{
+    width: 60%;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight:500;
     color: rgb(10, 10, 10);
+    text-align: center;
+    /* border:1px solid red; */
+    font-family: "Lora", serif;
 }
 
 /* new launch cards styling*/
@@ -36,19 +40,21 @@
     flex-direction: row;
     flex-wrap: wrap;
     padding: 1rem;
+    width: 86%;
 }
 
 .nl-cards-outer{
     border: 1px solid red;
     height: auto;
-    width: 20rem;
+    width: 24rem;
     background-color: rgb(241,241,241);
     display:flex ;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
     border-radius: 4px;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1.4rem;
+    margin: 0.5rem;
 }
 
 .nl-cards{
@@ -66,7 +72,7 @@
     background-color: white;
     border: 1px solid red;
     height: auto;
-    width: 90%;
+    width: 92%;
     margin-top: -1rem;
     border-radius: 4px;
     padding: 0.2rem 0.5rem;
@@ -124,9 +130,16 @@
 }
 .nl-cards-title{
     font-size: 0.9rem;
+    font-weight: 600;
+    font-family: "Lora", serif;
+    text-align:justify;
+   word-spacing: -2.8px;
 }
 .nl-cards-text{
     font-size: 0.8rem;
+    font-family: "Lora", serif;
+    text-align: justify;
+    word-spacing: -2px;
 }
 
 .nl-cards-footer{
@@ -135,4 +148,26 @@
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-between;
+}
+
+.nl-cards-discover-btn{
+border: 1px solid rgb(88, 88, 88);
+font-family: "Lora", serif;
+background-color: white;
+color: rgb(88, 88, 88);
+font-size: 1rem;
+font-weight: 600;
+padding: 0.5rem 1rem;
+}
+
+.nl-more-btn{
+    background: rgb(190,0,6);
+    font-size: 0.9rem;
+    color: white;
+    font-family: "Lora", serif;
+    border: none;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 0.4rem 2.4rem;
+    margin: 1rem;
 }

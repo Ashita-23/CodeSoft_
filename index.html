@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Css style sheet  -->
+    <Link href="nav.css" rel="stylesheet"/>
      <Link href="nlCards.css" rel="stylesheet"/>
-     <Link href="nav.css" rel="stylesheet"/>
+     <Link href="offers.css" rel="stylesheet"/>
+     <Link href="footer.css" rel="stylesheet"/>
      <!--  fonts.google.-->
      <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500&family=Monoton&family=Montserrat:wght@100;200;300;500;600;700;800;900&family=Passion+One:wght@400;700;900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" 
 rel="stylesheet">
+<!--  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+<!--  -->
     <!-- Bootstrap CDN for css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -22,28 +29,31 @@ rel="stylesheet">
 </head>
 <body>
     <navigation class="nav-bar">
-        <div>
-            LOGO IMG
-        </div>
+
+           <img src="./Assets/ailogo.png" alt="logo " class="nav-logo"> 
+      
         <ul>
             <li>Business</li>
             <li>knowledge</li>
             <li>Culture</li>
             <li>Start Ups</li>
-        </ul>
-        <div>
-            <form action="">
+        </ul> 
+       
+        <div class="nav-sub-bar">
+            <form action="" >
                 <input type="text" name="search" placeholder="Quick Search"/>
                 <i class="fa-solid fa-magnifying-glass"></i>
             </form>
           
-            <button>Launch Your Project</button>
-            <button>Login/SignUp</button>
+            <button class="nav-btn">Launch Your Project</button>
+            <button class="nav-btn-two">Login/SignUp</button>
         </div>
+        <!-- <i class="fa-solid fa-bars"></i> -->
+        <!-- <i class="fa-solid fa-bars-staggered"></i> -->
     </navigation>
 
     <article>
-        <section>
+        <section class="carousel-section">
             <div id="carouselExampleIndicators" class="carousel slide">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -84,7 +94,7 @@ rel="stylesheet">
               </div>
         </section>
         <section  class="Categories-section">
-            <h1>Categories</h1>
+            <h1 class="nl-heading">Categories</h1>
             <div class="container-md">
                 <!-- <div style="background-image:url( './Assets/categoriesimgs/car.jpg') ; width: 300px ; height:300px ; border:1px solid red"></div> -->
             <img src="./Assets/categoriesimgs/car.jpg" style="width: 300px"/>
@@ -97,12 +107,12 @@ rel="stylesheet">
             <img src="./Assets/categoriesimgs/vegetable.jpg " style="width: 300px" >
             <img src="./Assets/categoriesimgs/sports.jpg " style="width: 300px" >
             </div>
-            <button type="button" class="btn btn-danger">Explore</button>
+            <button type="button" class="nl-more-btn">Explore</button>
         </section>
 
         <section class="nl-section">
             <h1 class="nl-heading">New Launches</h1>
-          <p class="nl-heading-text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis sapiente eaque aut quos! Quibusdam temporibus sit delectus omnis, asperiores dolorem ullam qui voluptatum eum perspiciatis.</p>
+          <p class="nl-heading-text"> Find, ipsum dolor sit amet consectetur adipisicing elit. Officiis sapiente eaque aut quos! Quibusdam temporibus sit delectus omnis, asperiores dolorem ullam qui voluptatum eum perspiciatis. Officiis sapiente eaque aut quos! Quibusdam temporibus sit delectus omnis.</p>
 
           <div class="nl-cards-container">
             <div class="nl-cards-outer">
@@ -125,8 +135,8 @@ rel="stylesheet">
                     </ul>
                   </div>
                   
-                  <h1 class="nl-cards-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </h1>
-                  <p class="nl-cards-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, suscipit hic nisi rem cumque quis praesentium, quo nesciunt placeat sequi earum soluta veritatis magnam. Voluptas?</p>
+                  <h1 class="nl-cards-title">But I must explain to you sit  elit. Quibusdam, placeat sequi earum soluta veritatis magnam. Voluptas?</h1>
+                  <p class="nl-cards-text">But I must explain to you sit amet consectetur adipisicing elit. Quibusdam, suscipit hic nisi rem cumque quis praesentium, quo nesciunt placeat sequi earum soluta veritatis magnam. Voluptas?</p>
                   <div class="nl-cards-footer">
                     <div class="nl-user-icon-box">
                       <img src="./Assets/users/user1.jpg" style="border-radius: 15px; height: 2rem; width: 2rem; position: relative;"/>
@@ -135,13 +145,142 @@ rel="stylesheet">
                       <img src="./Assets/users/user4.jpg" style="border-radius: 15px; height: 2rem; width: 2rem; position:absolute;margin-top: 0rem;margin-left: 0.8rem;" />
                    
                     </div>
-                    <button type="button" class="btn btn-outline-secondary nl-cards-discover-btn">Discover Now</button>
+                    <button type="button" class="nl-cards-discover-btn">Discover Now</button>
+                  </div>
+                </div>
+              
+                </div>
+            <div class="nl-cards-outer">
+           
+                <img src="./Assets/newlaunches/boy.png " class="nl-cards-img"/>
+             
+                <div class="nl-cards-discreption-box">
+                <img src="./Assets/newlaunches/handicon.png"  class="nl-cards-icon"/>
+                  <div class="nl-icone-container">
+                  <ul class="nl-icone-list">
+                   <li><i class="fa-solid fa-eye"></i> 200</li> 
+                     <li><i class="fa-solid fa-comment"></i> 200</li>
+                     <li><i class="fa-solid fa-share-nodes"></i> 200</li>
+                     <li><i class="fa-solid fa-heart"></i> 200</li>
+                    </ul>
+             
+                     <ul class="nl-primary-icons">
+                       <li ><i class="fa-regular fa-bookmark"></i></li>
+                       <li ><i class="fa-solid fa-share-nodes" ></i></li>
+                    </ul>
+                  </div>
+                  
+                  <h1 class="nl-cards-title">But I must explain to you sit  elit. Quibusdam, placeat sequi earum soluta veritatis magnam. Voluptas?</h1>
+                  <p class="nl-cards-text">But I must explain to you sit amet consectetur adipisicing elit. Quibusdam, suscipit hic nisi rem cumque quis praesentium, quo nesciunt placeat sequi earum soluta veritatis magnam. Voluptas?</p>
+                  <div class="nl-cards-footer">
+                    <div class="nl-user-icon-box">
+                      <img src="./Assets/users/user1.jpg" style="border-radius: 15px; height: 2rem; width: 2rem; position: relative;"/>
+                      <img src="./Assets/users/user2.jpg" style="border-radius: 15px; height: 2rem; width: 2rem; position:absolute;margin-top:0rem;margin-left: -1.2rem;" />
+                      <img src="./Assets/users/user3.jpg" style="border-radius: 15px; height: 2rem; width: 2rem; position:absolute;margin-top: 0rem;margin-left: -0.3rem;" />
+                      <img src="./Assets/users/user4.jpg" style="border-radius: 15px; height: 2rem; width: 2rem; position:absolute;margin-top: 0rem;margin-left: 0.8rem;" />
+                   
+                    </div>
+                    <button type="button" class="nl-cards-discover-btn">Discover Now</button>
                   </div>
                 </div>
                 </div>
-            </div>
+                </div>
+              <button class="nl-more-btn">More</button>
           </div>
         </section>
+
+        <section class="offers-section">
+                <div>
+                  <!-- <div class="offers-fire-icon"> -->
+
+                    <i class="fa-solid fa-fire offers-fire-icon "></i>
+                  <!-- </div> -->
+                  <h1 class="offers-primary-title">Trending Now</h1>
+                  <p class="offers-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div>
+              
+                    <i class="fa-solid fa-clock offers-sec-icone"></i>
+                  <h1 class="offers-secondry-title">New Releases</h1>
+                  <p class="offers-text" >Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div>
+                 
+                    <i class="fa-solid fa-star offers-sec-icone"></i>
+               
+                  <h1 class="offers-secondry-title">Populer picks</h1>
+                  <p class="offers-text" >Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+        </section>
+
+        <section class="trending-now-section">
+
+        </section>
+
+        <section>
+          <h2>Influencer's Pick</h2>
+        </section>
+
+        <footer>
+          <div class="footer-boxOne">
+            <h4>Subscribe Our News Letter</h4>
+            <form class="footer-form">
+            <input type="text" placeholder="Enter Your Mailing Address" /> 
+            <i class="fa-solid fa-arrow-right"></i>
+          </form>
+          </div>
+          <div class="footer-boxtwo">
+            <table >
+              <tr>
+                <th>COMPANY</th>
+                <th>PRODUCTS</th>
+                <th>RESOURCES</th>
+              </tr>
+              <tr>
+                <td>About Us</td>
+                <td>Business</td>
+                <td>News</td>
+              </tr>
+              <tr>
+                <td>Vission</td>
+                <td>Culture</td>
+                <td>Blogs</td>
+              </tr>
+              <tr>
+                <td>Mission</td>
+                <td>knowledge</td>
+                <td>FAQ</td>
+              <tr>
+                <td>Contact Us</td>
+                <td>Start Up</td>
+                <td>Videos</td>
+              </tr>
+              </tr>
+            </table>
+          </div>
+          <div>
+            <div>
+              <h5>Beacome A Contributer</h5>
+              <button>Lunach Your Product</button>
+            </div>
+            <div>
+              <h5>FOLLOW US ON SOCIAl MEDIA</h5>
+              <ul>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+              </ul>
+              <ul>
+                <li>Terms&Conditions</li>
+                <li>Privacy Policy</li>
+                <li>Cookies Policy</li>
+              </ul>
+            </div>
+          </div>
+          <p>Copyright</p>
+        </footer>
     </article>
 
 

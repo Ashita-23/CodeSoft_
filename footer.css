@@ -1,0 +1,72 @@
+
+
+footer{
+    width: 99vw;
+    /* border: 1px solid red; */
+    background-color: rgb(23,23,23);
+    color: white;
+    font-family:Lora,ital;
+}
+
+.footer-boxOne{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: start;
+    justify-content: space-around;
+}
+.footer-boxOne h4 {
+   font-size: 0.9rem;
+   /* font-family:Lora,ital; */
+ 
+}
+.footer-form{
+    /* width: 6rem; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items:center;
+    border: 1px solid rgb(73,80,87);
+    background-color: rgb(73,80,87);
+    border-radius:25px;
+    padding: 0.2rem 0.8rem;
+}
+
+.footer-form input{
+    width: 16rem;
+    background-color: rgb(73,80,87);
+    border: none;
+    outline: none;
+    padding: 0.2rem 0.4rem;
+    font-size: 0.9rem;
+    color: white;
+}
+.footer-form input::placeholder{
+font-size: 0.7rem;
+color: rgb(226, 225, 225);
+}
+
+.footer-boxtwo{
+    border: 1px solid red;
+}
+.footer-boxtwo table{
+    border: none;
+    box-shadow: none;
+    color: rgb(226, 225, 225)
+}
+.footer-boxtwo table th {
+    border: 1px solid red;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+
+    
+}
+.footer-boxtwo table td {
+    border: 1px solid red;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 200;
+
+    
+}

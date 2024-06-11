@@ -9,6 +9,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    font-family: "Lora", serif;
 }
 
 .offers-section div{
@@ -17,7 +18,7 @@
     border-radius: 10px;
     /* color: red; */
     background-color: white;
-    padding: 1rem;
+    padding:1.2rem 1rem;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -26,16 +27,18 @@
 }
 
 .offers-primary-title{
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     color:  rgb(190,0,6);
     font-family: "Lora", serif;
+    text-transform: uppercase;
 }
 .offers-secondry-title{
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     color:  rgb(64, 76, 99);
     font-family: "Lora", serif;
+    text-transform: uppercase;
 
 }
 
@@ -75,4 +78,4 @@ margin-bottom: 0.5rem;
 
 table, th, td {
     border:1px solid black;
-  }
+  } 

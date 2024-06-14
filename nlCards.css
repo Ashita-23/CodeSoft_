@@ -12,6 +12,7 @@
     flex-direction: column;
     align-items: center;
     /* flex-wrap: wrap; */
+    overflow: hidden;
 }
 
 
@@ -39,14 +40,17 @@
     display:flex ;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     padding: 1rem;
-    width: 86%;
+    width: 80%;
+    height: 67rem;
+    overflow: hidden;
 }
 
 .nl-cards-outer{
     border: 1px solid red;
     height: auto;
-    width: 24rem;
+    width: 26rem;
     background-color: rgb(241,241,241);
     display:flex ;
     flex-direction: column;
@@ -54,29 +58,32 @@
     align-items: center;
     border-radius: 4px;
     padding-bottom: 1.4rem;
-    margin: 0.5rem;
+    margin: 0.5rem 0.2rem;
+    /* overflow: hidden; */
 }
 
-.nl-cards{
+/* .nl-cards{
     width: 400px;
     height: 300px;
+    border: 1px solid red;
     
-}
+} */
 .nl-cards-img{
     width: 100%;
     /* width: 350px; */
-    height: 180px;
+    height: 260px;
 }
 
 .nl-cards-discreption-box{
     background-color: white;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: auto;
     width: 92%;
     margin-top: -1rem;
     border-radius: 4px;
-    padding: 0.2rem 0.5rem;
+    padding: 0.2rem 0.8rem;
     padding-bottom: 0.8rem;
+    /* overflow: hidden; */
 }
 
 
@@ -101,7 +108,7 @@
     align-items: center;
     justify-content: space-around;
     /* list-style-type: none; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding-left: 0;
 }
 
@@ -117,7 +124,7 @@
     flex-wrap: nowrap;
     /* list-style-type: none; */
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding-left: 0;
 }
 .nl-primary-icons li{
@@ -155,9 +162,9 @@ border: 1px solid rgb(88, 88, 88);
 font-family: "Lora", serif;
 background-color: white;
 color: rgb(88, 88, 88);
-font-size: 1rem;
+font-size: 0.9rem;
 font-weight: 600;
-padding: 0.5rem 1rem;
+padding: 0.3rem 0.6rem;
 }
 
 .nl-more-btn{
@@ -170,4 +177,8 @@ padding: 0.5rem 1rem;
     border-radius: 4px;
     padding: 0.4rem 2.4rem;
     margin: 1rem;
+}
+
+#showLessNl{
+display: none;
 }

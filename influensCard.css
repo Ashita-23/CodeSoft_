@@ -1,10 +1,13 @@
 
 .Influencer-cards-section{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    width: 99vw;
 }
 .Influencer-cards-heading{
     font-size: 2.5rem;
@@ -13,19 +16,24 @@
 }
 
 .Influencer-cards-containor{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     width: 80%;
     justify-content: space-around;
-    padding: 1rem;
+    padding: 1.5rem 1rem;
+    height: 18rem;
+    overflow: hidden;
 }
 
+.Influencer-cards-containor-show{
+    height:40rem;
+}
 
 .Influencer-cards-outer{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 40rem;
    height: 15rem;
     display: flex;
@@ -33,11 +41,13 @@
     flex-wrap: nowrap;
     align-items: center;
     /* justify-content: space-around; */
+    margin: 0.5rem;
+ 
 }
 
 
 .Influencer-cards-info{
-    border: 1px solid rgb(255, 9, 214);
+    /* border: 1px solid rgb(255, 9, 214); */
     height: 80%;
     width: 24rem;
     border-radius: 6px;
@@ -45,10 +55,12 @@
     margin-left: -3rem;
     background-color: white;
     padding: 0.5rem 0.8rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .Influencer-cards-img{
     width: 14rem;
     border-radius: 6px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
    
 }
 
@@ -136,4 +148,9 @@
     font-size: 0.7rem;
     margin: 0;
     padding: 0.2rem 0rem;
+}
+
+#showLessIn{
+    display: none;
+    /* display: ; */
 }

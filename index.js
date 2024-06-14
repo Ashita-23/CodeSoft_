@@ -1,4 +1,25 @@
+// trending Cards Section
+let tnSlide_box = document.querySelector(".trending-now-outer")
+let tnSlides = document.getElementsByClassName("tn-cards-outer")
+let tnPrev_btn = document.querySelector(".tn-pre-btn")
+let tnNext_btn = document.querySelector(".tn-next-btn")
 
+let tn_slide_index = 1 ;
+ 
+tnSlides[tn_slide_index].classList.add("tn-active-card")
+
+tnPrev_btn.addEventListener("click",()=>{
+   tnSlides[tn_slide_index].classList.remove("tn-active-card")
+
+   tn_slide_index = (tn_slide_index === 0)? tnSlides.length-1 : tn_slide_index-1;
+   tnSlides[tn_slide_index].classList.add("tn-active-card")
+})
+tnNext_btn.addEventListener("click",()=>{
+   tnSlides[tn_slide_index].classList.remove("tn-active-card")
+
+   tn_slide_index = (tn_slide_index === tnSlides.length-1)? 0 : tn_slide_index+1;
+   tnSlides[tn_slide_index].classList.add("tn-active-card")
+})
 
 // New Lunch Cards
 

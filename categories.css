@@ -1,0 +1,121 @@
+
+.Categories-section{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 1rem 1rem;
+}
+
+.Categories-cards-outer{
+    width: 60%;
+    margin: 1rem 0rem;
+    border: 1px solid green;
+    display:flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* gap: 10px; */
+   /* row-gap: 10px; */
+
+}
+
+.Categories-cards-outer>div{
+    /*  */
+    display: grid;
+    gap: 5px;
+    margin: 4px;
+}
+.categorie-img-1{
+    width: 300px ; height: 200px;  border-radius: 10px;position: relative;
+}
+.categorie-img-2{
+    width: 300px ; height: 200px;  border-radius: 10px;
+}
+.categorie-img-3{
+    width: 300px ; height: 200px;  border-radius: 10px;
+}
+.categorie-img-4{
+    width: 300px ; height: 250px;  border-radius: 10px;
+}
+.categorie-img-5{
+    width: 300px ; height: 150px;  border-radius: 10px;
+}
+.categorie-img-6{
+    width: 300px ; height: 200px;  border-radius: 10px;
+}
+.categorie-img-7{
+    width: 300px ; height: 200px;  border-radius: 10px;
+}
+.categorie-img-8{
+    width: 300px ; height: 200px;  border-radius: 10px;
+}
+.categorie-img-9{
+    width: 300px ; height: 200px;  border-radius: 10px;
+}
+
+.img_cover{
+    margin-top: -200px;
+    left: 0;
+/* position: absolute; */
+width: 300px ; 
+height:200px; 
+/* border:1px solid red;  */
+ border-radius: 10px;
+ background-color: black;
+ color: white;
+ opacity: 0.7;
+ z-index: 1;
+ text-align: center;
+ padding-top: 90px;
+ font-size: 1.5rem;
+}
+.img_cover2{
+    margin-top: -255px;
+    left: 0;
+/* position: absolute; */
+width: 300px ; 
+height:250px; 
+/* border:1px solid red;  */
+ border-radius: 10px;
+ background-color: black;
+ color: white;
+ opacity: 0.7;
+ z-index: 1;
+ text-align: center;
+ /* padding: 1.5rem; */
+ padding-top: 100px;
+ font-size: 1.5rem;
+}
+.img_cover3{
+    margin-top: -155px;
+    left: 0;
+/* position: absolute; */
+width: 300px ; 
+height:150px; 
+/* border:1px solid red;  */
+ border-radius: 10px;
+ background-color: black;
+ color: white;
+ opacity: 0.7;
+ z-index: 1;
+ text-align: center;
+ padding-top: 50px;
+ font-size: 1.5rem;
+}
+.img_cover4{
+    margin-top: -205px;
+    left: 0;
+/* position: absolute; */
+width: 300px ; 
+height:200px; 
+/* border:1px solid red;  */
+ border-radius: 10px;
+ background-color: black;
+ color: white;
+ opacity: 0.7;
+ z-index: 1;
+ text-align: center;
+ padding-top: 90px;
+ font-size: 1.5rem;
+}

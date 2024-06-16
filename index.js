@@ -1,3 +1,35 @@
+// carousel Cards Section
+
+let carousel_indicators = document.getElementsByClassName("carousel_indicator_btn")
+let carousel_inner = document.querySelector(".carousel_inner")
+let carousel_cards = document.querySelector(".carousel_item")
+let carousel_prev = document.querySelector("#carousel_btn_left")
+let carousel_next = document.querySelector("#carousel_btn_right")
+
+let carousel_index = 0
+
+// console.log(carousel_inner)
+carousel_indicators[carousel_index].classList.add("active_indicator_btn")
+carousel_prev.addEventListener("click",()=>{
+   carousel_indicators[carousel_index].classList.remove("active_indicator_btn")
+   carousel_index=(carousel_index===0)? carousel_indicators.length-1:carousel_index-1
+    carousel_inner.style.transform=`translateX(-${carousel_index*25}%)`
+   carousel_indicators[carousel_index].classList.add("active_indicator_btn")
+})
+
+carousel_next.addEventListener("click",()=>{
+   carousel_indicators[carousel_index].classList.remove("active_indicator_btn")
+   carousel_index=(carousel_index===carousel_indicators.length-1)? 0:carousel_index+1
+   carousel_inner.style.transform=`translateX(-${carousel_index*25}%)`
+   carousel_indicators[carousel_index].classList.add("active_indicator_btn")
+})
+
+
+
+
+
+
+
 // trending Cards Section
 let tnSlide_box = document.querySelector(".trending-now-outer")
 let tnSlides = document.getElementsByClassName("tn-cards-outer")
@@ -23,22 +55,24 @@ tnNext_btn.addEventListener("click",()=>{
 
 // New Lunch Cards
 
-function newLunchCardsShow(){
-   document.querySelector("nl-cards-container").style.height="auto"
+function newLunchCardShow(){
+   document.querySelector(".nl-cards-container").style.height="auto"
    document.querySelector("#showMoreNl").style.display="none"
    document.querySelector("#showLessNl").style.display="initial"
+  
 }
 
-function newLunchCardsHide(){
-   document.querySelector("nl-cards-container").style.height="67rem"
+function newLunchCardHide(){
+    document.querySelector(".nl-cards-container").style.height="60rem"
   document.querySelector("#showMoreNl").style.display="initial"
    document.querySelector("#showLessNl").style.display="none"
+// alert("new lunch")
 }
 
 // influenser cards 
 
 function InfuenserCardShow(){
-  document.querySelector("#Influencer-box").style.height = "40rem"
+  document.querySelector("#Influencer-box").style.height = "auto"
   document.querySelector("#showMoreIn").style.display = "none"
     document.querySelector("#showLessIn").style.display = "initial"
 }

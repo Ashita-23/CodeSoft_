@@ -1,6 +1,6 @@
 
 .Influencer-cards-section{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -17,12 +17,12 @@
 }
 
 .Influencer-cards-containor{
-    /* border: 1px solid green; */
+    border: 1px solid green;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    width: 95%;
+    width: 98%;
     justify-content: space-around;
     padding: 1.5rem 1rem;
     height: 18rem;

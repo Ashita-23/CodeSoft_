@@ -1,0 +1,89 @@
+.carousel-section{
+    border: 1px solid red;
+    width: 99vw;
+    /* margin-bottom:50%; */
+}
+
+
+.carousel_slide{
+    border: 1px solid rgb(0, 255, 21);
+    width: 99vw;
+    height: 80vh;
+    /* display: flex; */
+    position: relative;
+    /* overflow: hidden; */
+}
+.carousel_inner{
+    border: 1px solid red;
+    display: flex;
+    position: absolute;
+    height: 80vh;
+    transition: 1s ease-in-out;
+}
+.carousel_item {
+    border: 1px solid red;
+    width: 99vw;
+    display: flex;
+    position: relative;
+}
+
+
+.carousel_img{
+    width:99vw ;
+    filter:  contrast(105%);
+}
+
+.carousel_caption{
+position: absolute;
+top:30%;
+left: 15%;
+color: white;
+border: 1px solid white;
+width: 70%;
+} 
+
+.carousel_btn_box{
+    border: 1px solid rgb(68, 0, 255);
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 22%;
+}
+.carousel_btn{
+   background-color: white;
+   border: none;
+   border-radius: 50%;
+   padding:0.5rem 1rem;
+   font-size: 1rem;
+   color: rgb(218, 12, 12);
+   margin: 0rem 10%;
+ 
+}
+
+.carousel_indicators{
+    border: 1px solid rgb(68, 0, 255);
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    margin-top: 45%;
+}
+.carousel_indicator_btn{
+    border: none;
+    border-radius: 50%;
+    padding: 0.3rem;
+    margin: 0rem 0.4rem;
+    background-color: rgb(173, 172, 172);
+}
+
+.active_indicator_btn{
+    background-color: rgb(252, 251, 251);
+
+}

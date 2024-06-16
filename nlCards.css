@@ -13,6 +13,7 @@
     align-items: center;
     /* flex-wrap: wrap; */
     overflow: hidden;
+    width: 99vw;
 }
 
 
@@ -43,7 +44,7 @@
     justify-content: space-evenly;
     padding: 1rem;
     width: 80%;
-    height: 67rem;
+    height: 60rem;
     overflow: hidden;
 }
 

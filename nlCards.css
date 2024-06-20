@@ -1,13 +1,10 @@
 *{
     padding: 0;
     margin: 0;
-    list-style-type: none;
-    font-family: "Playfair Display", serif;
     }
 
-
 .nl-section{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display:flex ;
     flex-direction: column;
     align-items: center;
@@ -16,28 +13,24 @@
     width: 99vw;
 }
 
-
 .nl-heading{
     font-size: 2.5rem;
     color: rgb(77, 89, 100);
     font-weight: 800;
-   
 }
 
 .nl-heading-text{
     width: 60%;
     font-size: 1rem;
-    font-weight:500;
-    color: rgb(10, 10, 10);
+    font-weight:400;
+    color: rgb(77, 89, 100);
     text-align: center;
-    /* border:1px solid red; */
-    font-family: "Lora", serif;
+    font-family: "Roboto Slab", serif;
 }
 
 /* new launch cards styling*/
-
 .nl-cards-container{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display:flex ;
     flex-direction: row;
     flex-wrap: wrap;
@@ -49,7 +42,7 @@
 }
 
 .nl-cards-outer{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: auto;
     width: 26rem;
     background-color: rgb(241,241,241);
@@ -62,13 +55,11 @@
     margin: 0.5rem 0.2rem;
     /* overflow: hidden; */
 }
-
 .nl-cards-img{
     width: 100%;
     height: 260px;
     /* border: 1px solid red; */
 }
-
 .nl-cards-discreption-box{
     background-color: white;
     /* border: 1px solid red; */
@@ -79,16 +70,13 @@
     padding: 0.2rem 1rem;
     padding-bottom: 0.8rem;
     /* overflow: hidden; */
+    font-family: "Roboto Slab", serif;
 }
-
-
-
 .nl-cards-icon{
     margin-top: -1.5rem;
     margin-left: 0.5rem;
     height: 2.5rem;
     padding: 0.2rem ;
-
 }
 
 .nl-icone-container{
@@ -104,7 +92,6 @@
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-around;
-    /* list-style-type: none; */
     /* border: 1px solid red; */
     padding-left: 0;
 }
@@ -119,8 +106,6 @@
     display:flex ;
     flex-direction: row;
     flex-wrap: nowrap;
-    /* list-style-type: none; */
-
     /* border: 1px solid red; */
     padding-left: 0;
 }
@@ -135,17 +120,15 @@
 .nl-cards-title{
     font-size: 0.7rem;
     font-weight: 600;
-    font-family: "Lora", serif;
     text-align:justify;
-   word-spacing: -2.8px;
+   word-spacing: 0px;
 }
 .nl-cards-text{
     font-size: 0.6rem;
-    font-family: "Lora", serif;
+    color: rgb(143, 141, 141);
     text-align: justify;
-    word-spacing: -2px;
+    word-spacing: -1px;
 }
-
 .nl-cards-footer{
     display:flex ;
     flex-direction: row;
@@ -153,22 +136,18 @@
     align-items: center;
     justify-content: space-between;
 }
-
 .nl-cards-discover-btn{
 border: 1px solid rgb(88, 88, 88);
-font-family: "Lora", serif;
 background-color: white;
 color: rgb(88, 88, 88);
 font-size: 0.6rem;
 font-weight: 600;
 padding: 0.3rem 0.6rem;
 }
-
 .nl-more-btn{
     background: rgb(190,0,6);
     font-size: 0.9rem;
     color: white;
-    font-family: "Lora", serif;
     border: none;
     font-weight: 500;
     border-radius: 4px;
@@ -178,4 +157,322 @@ padding: 0.3rem 0.6rem;
 
 #showLessNl{
 display: none;
+}
+@media (min-width:260px){
+    .nl-section{
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    
+    .nl-heading{
+        font-size: 1.5rem;
+    }
+    
+    .nl-heading-text{
+        width: 92%;
+        font-size: 0.7rem;
+        text-align: justify;
+        /* border: 1px solid red; */
+    }
+    .nl-cards-container{
+        /* border: 1px solid blue; */
+        padding: 0.4rem 0.2rem;
+        height: 57rem;
+        width: 100%;
+       
+    }
+    
+    .nl-cards-outer{
+        /* border: 1px solid red; */
+        height: auto;
+        width: 26rem;
+        border-radius: 6px;
+        overflow: hidden;
+        /* padding-bottom: 0.5rem; */
+    }
+    .nl-cards-img{
+        width: 100%;
+        height: 200px;
+        /* border: 1px solid red; */
+    }
+
+}
+@media (min-width:320px){
+    .nl-section{
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    
+    .nl-heading{
+        font-size: 1.5rem;
+    }
+    
+    .nl-heading-text{
+        width: 80%;
+        font-size: 0.7rem;
+        text-align: justify;
+        /* border: 1px solid red; */
+    }
+    .nl-cards-container{
+        /* border: 1px solid blue; */
+        padding: 0.4rem 0.2rem;
+        height: 57rem;
+        width: 80%;
+       
+    }
+    
+    .nl-cards-outer{
+        /* border: 1px solid red; */
+        height: auto;
+        width: 26rem;
+        border-radius: 6px;
+        overflow: hidden;
+        /* padding-bottom: 0.5rem; */
+    }
+    .nl-cards-img{
+        width: 100%;
+        height: 200px;
+        /* border: 1px solid red; */
+    }
+
+}
+@media (min-width:450px){
+    .nl-section{
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    
+    .nl-heading{
+        font-size: 1.8rem;
+    }
+    
+    .nl-heading-text{
+        width: 80%;
+        font-size: 0.7rem;
+        text-align: justify;
+        /* border: 1px solid red; */
+    }
+    .nl-cards-container{
+        /* border: 1px solid blue; */
+        padding: 0.4rem 0.2rem;
+        height: 57rem;
+        width: 80%;
+       
+    }
+    
+    .nl-cards-outer{
+        /* border: 1px solid red; */
+        height: auto;
+        width: 26rem;
+        border-radius: 6px;
+        overflow: hidden;
+        /* padding-bottom: 0.5rem; */
+    }
+    .nl-cards-img{
+        width: 100%;
+        height: 200px;
+        /* border: 1px solid red; */
+    }
+
+}
+@media (min-width:481px){
+    .nl-section{
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    
+    .nl-heading{
+        font-size: 1.8rem;
+    }
+    
+    .nl-heading-text{
+        width: 80%;
+        font-size: 0.7rem;
+        text-align: justify;
+        /* border: 1px solid red; */
+    }
+    .nl-cards-container{
+        /* border: 1px solid blue; */
+        padding: 0.4rem 0.2rem;
+        height: 57rem;
+        width: 80%;
+       
+    }
+    
+    .nl-cards-outer{
+        /* border: 1px solid red; */
+        height: auto;
+        width: 20rem;
+        border-radius: 6px;
+        overflow: hidden;
+        margin: 0.2rem;
+        /* padding-bottom: 0.5rem; */
+    }
+    .nl-cards-img{
+        width: 100%;
+        height: 210px;
+        /* border: 1px solid red; */
+    }
+
+}
+
+@media (min-width:769px){
+    .nl-section{
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    
+    .nl-heading{
+        font-size: 2rem;
+    }
+    
+    .nl-heading-text{
+        width: 70%;
+        font-size: 0.9rem;
+        text-align: center;
+        /* border: 1px solid red; */
+    }
+    .nl-cards-container{
+        /* border: 1px solid blue; */
+        padding: 0.4rem 0.2rem;
+        height: 57.5rem;
+        width: 80%;
+       
+    }
+    
+    .nl-cards-outer{
+        /* border: 1px solid red; */
+        height: auto;
+        width: 18rem;
+        border-radius: 6px;
+        overflow: hidden;
+        margin: 0.2rem;
+        /* padding-bottom: 0.5rem; */
+    }
+    .nl-cards-img{
+        width: 100%;
+        height: 210px;
+        /* border: 1px solid red; */
+    }
+
+}
+@media (min-width:1025px){
+    .nl-section{
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    
+    .nl-heading{
+        font-size: 2.5rem;
+    }
+    
+    .nl-heading-text{
+        width: 70%;
+        font-size: 0.9rem;
+        text-align: center;
+        /* border: 1px solid red; */
+    }
+    .nl-cards-container{
+        /* border: 1px solid blue; */
+        padding: 0.4rem 0.2rem;
+        height: 55.5rem;
+        width: 80%;
+       
+    }
+    
+    .nl-cards-outer{
+        /* border: 1px solid red; */
+        height: auto;
+        width: 24rem;
+        border-radius: 6px;
+        overflow: hidden;
+        margin: 0.2rem;
+        /* padding-bottom: 0.5rem; */
+    }
+    .nl-cards-img{
+        width: 100%;
+        height: 220px;
+        /* border: 1px solid red; */
+    }
+
+}
+@media (min-width:1201px){
+    .nl-section{
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    
+    .nl-heading{
+        font-size: 2.5rem;
+    }
+    
+    .nl-heading-text{
+        width: 60%;
+        font-size: 0.9rem;
+        text-align: center;
+        /* border: 1px solid red; */
+    }
+    .nl-cards-container{
+        /* border: 1px solid blue; */
+        padding: 0.4rem 0.2rem;
+        height: 55.5rem;
+        width: 80%;
+       
+    }
+    
+    .nl-cards-outer{
+        /* border: 1px solid red; */
+        height: auto;
+        width: 24rem;
+        border-radius: 6px;
+        overflow: hidden;
+        margin: 0.2rem;
+        /* padding-bottom: 0.5rem; */
+    }
+    .nl-cards-img{
+        width: 100%;
+        height: 220px;
+        /* border: 1px solid red; */
+    }
+
+}
+@media (min-width:1500px){
+    .nl-section{
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    
+    .nl-heading{
+        font-size: 2.5rem;
+    }
+    
+    .nl-heading-text{
+        width: 60%;
+        font-size: 0.9rem;
+        text-align: center;
+        /* border: 1px solid red; */
+    }
+    .nl-cards-container{
+        /* border: 1px solid blue; */
+        padding: 0.4rem 0.2rem;
+        height: 55.5rem;
+        width: 80%;
+       
+    }
+    
+    .nl-cards-outer{
+        /* border: 1px solid red; */
+        height: auto;
+        width: 24rem;
+        border-radius: 6px;
+        overflow: hidden;
+        margin: 0.5rem;
+        /* padding-bottom: 0.5rem; */
+    }
+    .nl-cards-img{
+        width: 100%;
+        height: 220px;
+        /* border: 1px solid red; */
+    }
+
 }

@@ -49,15 +49,14 @@ footer{
     padding: 0.2rem 0.4rem;
     font-size: 0.9rem;
     color: white;
+    /* border: 1px solid red; */
 }
 .footer-form input::placeholder{
 font-size: 0.7rem;
 color: rgb(226, 225, 225);
 }
 
-.footer-boxtwo{
-    /* border: 1px solid red; */
-}
+
 .footer-boxtwo table{
     border: none;
     box-shadow: none;
@@ -68,8 +67,6 @@ color: rgb(226, 225, 225);
     /* border: 1px solid red; */
     padding: 0.5rem;
     font-size: 0.9rem;
-
-    
 }
 .footer-boxtwo table td {
     /* border: 1px solid red; */
@@ -81,13 +78,15 @@ color: rgb(226, 225, 225);
     
 }
 
-.footer-boxthree{
+.footerBox-ForThre-outer{
+    width: 50%;
+}
+.footer-boxthree {
     /* border: 1px solid red; */
-    
+    /* padding-top:; */
 }
 .footer-boxthree h5{
-    font-size: 0.9rem;
-
+    font-size: 1rem;
 }
 .footer-boxthree button{
     font-size: 0.8rem;
@@ -108,8 +107,6 @@ color: rgb(226, 225, 225);
     justify-content: center;
     color: rgb(211, 209, 209);
     margin-top: 1rem;
- 
-
 }
 
 .footer-boxfour h5{
@@ -139,6 +136,307 @@ color: rgb(226, 225, 225);
     font-size: 0.7rem;
     padding: 1rem 0.5rem;
     border-top:1px solid rgb(223, 223, 223);
-    
     background-color: rgb(23,23,23);
+}
+
+/* @media Query.............. */
+
+@media (min-width:260px){
+    footer{
+        /* border: 1px solid rgb(30, 255, 0); */
+        width: 100%;
+        padding: 1rem 1rem;
+    }
+  
+  .footer-boxOne{
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            /* border: 1px solid rgb(0, 195, 255); */
+    }
+    .footer-boxOne h4 {
+        font-size: 1rem;
+     }
+     .footer-form{
+        width:100%;
+    }
+
+    .footer-boxtwo table{
+        margin-top:0.5rem ;
+    }
+
+    .footer-boxtwo table th {
+        font-size: 0.7rem;
+    }
+    .footer-boxtwo table td {
+       text-align: center;
+    }
+
+    .footerBox-ForThre-outer{
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+    .footer-boxthree {
+        /* border: 1px solid rgb(0, 255, 13); */
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-boxfour{
+        width: 100%;
+        /* border: 1px solid rgb(0, 255, 255); */
+        align-items: center;
+    }
+    .Copyright{
+        width:100%;
+    }
+}
+
+@media (min-width:320px) {
+    footer{
+        /* border: 1px solid rgb(30, 255, 0); */
+        width: 100%;
+        padding: 1rem 1rem;
+        align-items:center;
+        justify-content: center;
+    }
+    .footer-boxOne{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid rgb(0, 195, 255); */
+    }
+    .footer-boxOne h4 {
+        font-size: 1rem;
+
+     }
+     .footer-form{
+        width:80%;
+       
+    }
+
+    .footer-boxtwo table{
+        margin-top:0.5rem ;
+        /* border: 1px solid red; */
+    }
+    
+
+    .footer-boxtwo table th {
+        font-size: 0.7rem;
+    }
+    .footer-boxtwo table td {
+        text-align: center;
+    }
+    .footer-boxOne{
+        width: 100%;
+       margin-top: 0.5rem;
+       /* border: 1px solid red; */
+    }
+    
+.footer-boxthree {
+    /* border: 1px solid red; */
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-boxfour{
+    /* border: 1px solid red; */
+    align-items: center;
+}
+}
+
+@media (min-width:450px) {
+    footer{
+        /* border: 1px solid rgb(30, 255, 0); */
+        width: 100%;
+        padding: 1rem 1rem;
+        align-items:center;
+        justify-content: center;
+    }
+    .footer-boxOne{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid rgb(0, 195, 255); */
+    }
+    .footer-boxOne h4 {
+        font-size: 1.1rem;
+
+     }
+     .footer-form{
+        width:70%;
+       
+    }
+
+    .footer-boxtwo table{
+        margin-top:0.5rem ;
+        /* border: 1px solid red; */
+    }
+    
+
+    .footer-boxtwo table th {
+        font-size: 0.9rem;
+    }
+    .footer-boxtwo table td {
+        text-align: center;
+    }
+    .footer-boxOne{
+        width: 100%;
+       margin-top: 0.5rem;
+       /* border: 1px solid red; */
+    }
+    
+.footer-boxthree {
+    /* border: 1px solid red; */
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-boxfour{
+    /* border: 1px solid red; */
+    align-items: center;
+}
+}
+@media (min-width:481px) {
+    footer{
+        /* border: 1px solid rgb(0, 60, 255); */
+        width: 100%;
+        padding: 1rem 1rem;
+    }
+}
+@media (min-width:500px) {
+    footer{
+        /* border: 1px solid rgb(0, 60, 255); */
+        width: 100%;
+        padding: 1rem 1rem;
+    }
+    .footer-form{
+        width:18rem;
+       
+    }
+}
+@media (min-width:769px) {
+    footer{
+        /* border: 1px solid rgb(30, 255, 0); */
+        width: 100%;
+        padding: 1rem 1rem;
+        align-items:start;
+        justify-content: space-evenly;
+    }
+    .footer-boxOne{
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+        /* border: 1px solid rgb(168, 3, 245); */
+        margin-top: 0;
+    }
+    .footer-boxOne h4 {
+        font-size: 1rem;
+
+     }
+     .footer-form{
+        width:16rem;
+       
+    }
+
+    .footer-boxtwo table{
+        margin-top:0.5rem ;
+        /* border: 1px solid red; */
+    }
+    
+
+    .footer-boxtwo table th {
+        font-size: 0.7rem;
+    }
+    .footer-boxtwo table td {
+        text-align: center;
+    }
+    .footerBox-ForThre-outer{
+        width: 50%;
+        margin-top: 0;
+    }
+    
+.footer-boxthree {
+    /* border: 1px solid red; */
+    padding-top: 0rem;
+}
+.footer-boxfour{
+    /* border: 1px solid red; */
+    align-items: center;
+}
+}
+@media (min-width:1025px) {
+    footer{
+        /* border: 1px solid rgb(0, 60, 255); */
+        width: 100%;
+        padding: 1rem 1rem;
+    }
+    .footer-boxOne h4 {
+        font-size: 1.1rem;      
+     }
+     .footer-form{
+         width: 18rem;
+         /* border: 1px solid red; */ 
+     }
+     
+     .footer-form input{
+         font-size: 0.9rem;
+         /* border: 1px solid red; */
+     }
+     .footer-form input::placeholder{
+     font-size: 0.8rem;
+     color: rgb(226, 225, 225);
+     }
+     
+     .footer-boxtwo table th {
+         /* border: 1px solid red; */
+         font-size: 1rem;
+     }
+     .footer-boxtwo table td {
+         /* border: 1px solid red; */
+         font-size: 0.8rem;
+     }
+
+     .footer-boxthree h5{
+         font-size: 1.1rem;
+     }
+     .footer-boxthree button{
+         font-size: 0.9rem;
+
+     }
+     
+     .footer-boxfour h5{
+         font-size: 1rem;
+     }
+ 
+     .footer-boxfour ul i{
+   
+         font-size: 1.1rem;
+      
+     }
+     .footer-boxfour ul li{
+
+         font-size: 0.9rem;
+ 
+     }
+}
+@media (min-width:1201px) {
+    footer{
+        /* border: 1px solid rgb(0, 60, 255); */
+        width: 100%;
+        padding: 1rem 1rem;
+    }
+}
+@media (min-width:1500px) {
+    footer{
+        /* border: 1px solid rgb(0, 60, 255); */
+        width: 99vw;
+        padding: 1.5rem 1rem;
+    }
+
+    .Copyright{
+        width: 99vw;}
 }

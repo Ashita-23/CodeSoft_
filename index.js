@@ -1,3 +1,19 @@
+// nav-toggel-btn 
+let nav_toggle_on = document.querySelector(".nav-toggel-on")
+let nav_toggle_off = document.querySelector(".nav-toggel-off")
+let nav_toggle_bar = document.querySelector(".toggel-bar-nav")
+
+nav_toggle_on.addEventListener("click",()=>{
+    nav_toggle_on.style.display="none"
+     nav_toggle_off.style.display="initial"
+     nav_toggle_bar.style.display="initial"})
+nav_toggle_off.addEventListener("click",()=>{
+   nav_toggle_off.style.display="none"
+   nav_toggle_on.style.display="initial"
+   nav_toggle_bar.style.display="none"
+   // alert("close")
+})
+
 // carousel Cards Section
 
 let carousel_indicators = document.getElementsByClassName("carousel_indicator_btn")

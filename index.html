@@ -13,15 +13,16 @@
      <Link href="influensCard.css" rel="stylesheet"/>
      <Link href="trending.css" rel="stylesheet"/>
      <Link href="categories.css" rel="stylesheet"/>
+     <!-- favicon -->
+     <link rel="apple-touch-icon" sizes="180x180" href="./Assets/favicon.ico">
+     <link rel="icon" type="image/png" sizes="32x32" href="./Assets/favicon.ico">
+     <link rel="icon" type="image/png" sizes="16x16" href="./Assets/favicon.ico">
+     <link rel="manifest" href="/site.webmanifest">
      <!--  fonts.google.-->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500&family=Monoton&family=Montserrat:wght@100;200;300;500;600;700;800;900&family=Passion+One:wght@400;700;900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" 
-rel="stylesheet">
-<!--  -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+rel="stylesheet"> -->
 <!--  -->
     <!-- Bootstrap CDN for css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -32,22 +33,30 @@ rel="stylesheet">
 
     <title>Ai Brain</title>
     <style>
-
-
-    </style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap');
+      </style>
 </head>
 <body>
   <div>
     <navigation class="nav-bar">
+    <div class="img-box">
 
-           <img src="./Assets/ailogo.png" alt="logo " class="nav-logo"> 
+      <img src="./Assets/ailogo.png" alt="logo " class="nav-logo"> 
+      <div class="toggel-btn-box">
+      <button class="nav-toggel-on">  <i class="fa-solid fa-bars toggel-icon" ></i></button>
+      <button class="nav-toggel-off"> <i class="fa-solid fa-xmark"></i></i></button>
+    </div>
+    
+    </div>
       
+      <div class="nav-sub-bar-box">
         <ul>
             <li>Business</li>
-            <li>knowledge</li>
+            <li>Knowledge</li>
             <li>Culture</li>
             <li>Start Ups</li>
         </ul> 
+
        
         <div class="nav-sub-bar">
             <form action="" >
@@ -57,10 +66,20 @@ rel="stylesheet">
           
             <button class="nav-btn">Launch Your Project</button>
             <button class="nav-btn-two">Login/SignUp</button>
+           
         </div>
+      </div>
+     
         <!-- <i class="fa-solid fa-bars"></i> -->
         <!-- <i class="fa-solid fa-bars-staggered"></i> -->
     </navigation>
+    <ul class="toggel-bar-nav">
+      <li>Business</li>
+      <li>Knowledge</li>
+      <li>Culture</li>
+      <li>Start Ups</li>
+    </ul>
+    
 
     <article>
         <section class="carousel-section">
@@ -78,7 +97,7 @@ rel="stylesheet">
                     <img src="./Assets/canyon.jpg" class="carousel_img"  alt="..." data-bs-interval="10000">
                     <div class="carousel_caption">
                        
-                        <p class="fs-1 text-center  fw-bolder">Lorem ipsum dolor sit amet, consectetur adipisicing elit.  necessitatibus perferendis aspernatur!</p>
+                        <p class="carousel_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.  necessitatibus perferendis aspernatur!</p>
                       </div>
                   </div>
                   
@@ -86,7 +105,7 @@ rel="stylesheet">
                     <img src="./Assets/canyon.jpg" class="carousel_img" alt="..." data-bs-interval="20000">
                     <div class="carousel_caption">
                       
-                         <p class="fs-1 text-center  fw-bolder">Lorem ipsum dolor sit amet, consectetur adipisicing elit.  necessitatibus perferendis aspernatur!</p>
+                         <p class="carousel_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.  necessitatibus perferendis aspernatur!</p>
                       </div>
                   </div>
 
@@ -94,7 +113,7 @@ rel="stylesheet">
                     <img src="./Assets/canyon.jpg" class="carousel_img" alt="...">
                     <div class="carousel_caption ">
                        
-                         <p class="fs-1 text-center  fw-bolder">Lorem ipsum dolor sit amet, consectetur adipisicing elit.  necessitatibus perferendis aspernatur!</p>
+                         <p class="carousel_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.  necessitatibus perferendis aspernatur!</p>
                       </div>
                   </div>
 
@@ -102,7 +121,7 @@ rel="stylesheet">
                     <img src="./Assets/canyon.jpg" class="carousel_img" alt="...">
                     <div class="carousel_caption ">
                       
-                         <p class="fs-1 text-center  fw-bolder">Lorem ipsum dolor sit amet, consectetur adipisicing elit.  necessitatibus perferendis aspernatur!</p>
+                         <p class="carousel_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.  necessitatibus perferendis aspernatur!</p>
                       </div>
                   </div>
 
@@ -122,36 +141,6 @@ rel="stylesheet">
 
               </div>
         </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <section  class="Categories-section">
             <h1 class="nl-heading">Categories</h1>
             <div class="Categories-cards-outer">
@@ -169,7 +158,6 @@ rel="stylesheet">
                   <div class="img_cover"> 
                     Medical
                   </div>
-                 
                  </div>
          <div>
           <img src="./Assets/categoriesimgs/entertainment.jpg  " class="categorie-img-4"/>
@@ -426,20 +414,20 @@ rel="stylesheet">
                     <i class="fa-solid fa-fire offers-fire-icon "></i>
                   <!-- </div> -->
                   <h1 class="offers-primary-title">Trending Now</h1>
-                  <p class="offers-text">Find Interesting blogs that are trending now</p>
+                  <p class="offers-text">Find Interesting blogs that are trending </p>
                 </div>
                 <div>
               
                     <i class="fa-solid fa-clock offers-sec-icone"></i>
                   <h1 class="offers-secondry-title">New Releases</h1>
-                  <p class="offers-text" >Find Interesting blogs that are trending now</p>
+                  <p class="offers-text" >Find Interesting blogs that are trending </p>
                 </div>
                 <div>
                  
                     <i class="fa-solid fa-star offers-sec-icone"></i>
                
                   <h1 class="offers-secondry-title">Populer picks</h1>
-                  <p class="offers-text" >Find Interesting blogs that are trending now</p>
+                  <p class="offers-text" >Find Interesting blogs that are trending </p>
                 </div>
         </section>
 
@@ -556,7 +544,10 @@ rel="stylesheet">
   <div class="videos-section-main">
     <div class="videos-text-card ">
       <p class="videos-title">Videos</p>
-      <p class="videos-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sunt doloribus minima perferendis quo, vero fuga vitae architecto quibusdam.</p>
+      <p class="videos-text ">Progressively incentivize cooperative systems
+        through technically sound functionalities. The
+        credibly productivate seamless data.
+        </p>
       <div class="videos-btn-box">
         <button class="videos-btn" id="pre_Btn" onclick=perview()><i class="fa-solid fa-angle-left"></i></button>
         <button class="videos-btn" id="next_Btn" onclick=next() ><i class="fa-solid fa-angle-right"></i></button>
@@ -566,32 +557,36 @@ rel="stylesheet">
     <div class="videos-slider" >
       <div class="Video-slides-cards active">
        <div class="video-slide-text-box">
-        <p class="video-slide-date">08.08.2012</p>
-        <p class="video-slide-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+        <p class="video-slide-date">08.08.2021</p>
+        <p class="video-slide-text">Richird Norton photorealistic
+rendering as real photos </p>
        </div>
       <video class="Video-slides" src="./Assets/videos/walking.mp4" type="video/mp4"></video>
       <!-- <i class="fa-regular fa-circle-play play-btn"></i> -->
     </div>
       <div class="Video-slides-cards">
         <div class="video-slide-text-box">
-          <p class="video-slide-date">08.08.2012</p>
-          <p class="video-slide-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+          <p class="video-slide-date">08.08.2021</p>
+          <p class="video-slide-text">Richird Norton photorealistic
+rendering as real photos </p>
          </div>
       <video class="Video-slides" src="./Assets/videos/officeemlopyee.mp4" type="video/mp4" ></video>
       <!-- <i class="fa-regular fa-circle-play play-btn"></i> -->
     </div>
       <div class="Video-slides-cards">
         <div class="video-slide-text-box">
-          <p class="video-slide-date">08.08.2012</p>
-          <p class="video-slide-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+          <p class="video-slide-date">08.08.2021</p>
+          <p class="video-slide-text">Richird Norton photorealistic
+rendering as real photos </p>
          </div>
     <video class="Video-slides" src="./Assets/videos/car.mp4" type="video/mp4" ></video>
     <!-- <i class="fa-regular fa-circle-play play-btn"></i> -->
   </div>
     <div class="Video-slides-cards">
       <div class="video-slide-text-box">
-        <p class="video-slide-date">08.08.2012</p>
-        <p class="video-slide-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+        <p class="video-slide-date">08.08.2021</p>
+        <p class="video-slide-text">Richird Norton photorealistic
+rendering as real photos </p>
        </div>
   <video class="Video-slides" src="./Assets/videos/balcony.mp4" type="video/mp4" ></video>
   <!-- <i class="fa-regular fa-circle-play play-btn"></i> -->
@@ -747,13 +742,9 @@ rel="stylesheet">
             </table>
           </div>
         </div>
-
-
-
-
-          <div class="">
+          <div class="footerBox-ForThre-outer">
             <div class="footer-boxthree">
-              <h5>Beacome A Contributer</h5>
+              <h5>Become a Contributer</h5>
               <button >Lunach Your Product</button>
             </div>
             <div class="footer-boxfour">

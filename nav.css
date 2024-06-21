@@ -271,6 +271,16 @@ background-color:white;
                 margin: 0rem 0.1rem;
             } 
 }
+@media (min-width:367px){
+    .nav-btn-two{
+        font-size: 0.6rem;
+        padding: 0.3rem 0.5rem;
+        margin: 0rem 0.1rem;
+    } 
+    .toggel-bar-nav{
+        top: 10vh;
+    }
+}
 @media (min-width:371px){
     .nav-btn-two{
         font-size: 0.6rem;
@@ -293,6 +303,7 @@ background-color:white;
         
     }
 }
+
 @media (min-width:481px){
     .nav-bar ul{
         display: none;
@@ -321,7 +332,7 @@ background-color:white;
     }
 
     .toggel-bar-nav{
-        top: 11vh;
+        top: 10vh;
     }
     .nav-sub-bar form{
         padding: 0rem 0.2rem;
@@ -368,7 +379,7 @@ background-color:white;
         margin-right: 0rem;
     }
     .toggel-bar-nav{
-        top: 11vh;
+        top: 6vh;
     }
     .nav-sub-bar form{
         padding: 0rem 0.2rem;
@@ -424,6 +435,9 @@ background-color:white;
     .toggel-btn-box{
         display: none;
     }
+    .toggel-bar-nav{
+visibility: hidden;
+    }
     .nav-sub-bar form{
         padding: 0rem 0.2rem;
         margin: 0rem 0.3rem;
@@ -444,6 +458,7 @@ background-color:white;
         padding: 0.3rem 0.5rem;
         margin: 0rem 0.1rem;
     } 
+    
     
 }
 @media (min-width:1025px){

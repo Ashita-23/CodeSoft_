@@ -170,15 +170,14 @@ background-color:white;
             }
             .nav-sub-bar form{
                 margin-right: 0rem;
-                /* padding: 0.4; */
-                margin: 0;
-                padding: 0;
-                /* border: 1px solid red; */
+                width: 8rem;
+               /* border: 1px solid red; */
             }
 
 
             .nav-sub-bar form input{
-                font-size: 0.6rem;
+                font-size: 0.8rem;
+                width: 100%;
                 padding: 0.2rem 0.2rem;
                 background-color: rgb(248, 246, 246);
             }
@@ -190,14 +189,7 @@ background-color:white;
             .toggel-bar-nav{
                 top: 11vh;
             }
-            .nav-sub-bar form{
-                padding: 0rem 0.2rem;
-                margin: 0rem 0.3rem;
-                margin-right: 0.2rem;
-            }
-            .nav-sub-bar form input{
-                padding: 0.3rem 0.3rem;
-            }
+          
           
           .nav-btn{
                 font-size: 0.6rem;
@@ -207,7 +199,7 @@ background-color:white;
             
             .nav-btn-two{
                 font-size: 0.6rem;
-                padding: 0.6rem 0.5rem;
+                padding: 0.3rem 0.3rem;
                 margin: 0rem 0.1rem;
             } 
 }
@@ -233,12 +225,14 @@ background-color:white;
             }
             .nav-sub-bar form{
                 margin-right: 0rem;
-                /* padding: 0.4; */
+                width: 8rem;
+               /* border: 1px solid red; */
             }
 
 
             .nav-sub-bar form input{
                 font-size: 0.8rem;
+                width: 100%;
                 padding: 0.2rem 0.2rem;
                 background-color: rgb(248, 246, 246);
             }
@@ -250,14 +244,6 @@ background-color:white;
             .toggel-bar-nav{
                 top: 11vh;
             }
-            .nav-sub-bar form{
-                padding: 0rem 0.2rem;
-                margin: 0rem 0.3rem;
-                margin-right: 0.2rem;
-            }
-            .nav-sub-bar form input{
-                padding: 0.3rem 0.3rem;
-            }
           
           .nav-btn{
                 font-size: 0.6rem;
@@ -266,8 +252,8 @@ background-color:white;
             } 
             
             .nav-btn-two{
-                font-size: 0.7rem;
-                padding: 0.6rem 0.5rem;
+                font-size: 0.6rem;
+                padding: 0.3rem 0.3rem;
                 margin: 0rem 0.1rem;
             } 
 }
@@ -279,6 +265,19 @@ background-color:white;
     } 
     .toggel-bar-nav{
         top: 10vh;
+    }
+    .nav-sub-bar form{
+        margin-right: 0rem;
+        width: 9rem;
+       /* border: 1px solid red; */
+    }
+
+
+    .nav-sub-bar form input{
+        font-size: 0.8rem;
+        width: 100%;
+        padding: 0.2rem 0.2rem;
+        background-color: rgb(248, 246, 246);
     }
 }
 @media (min-width:371px){
@@ -302,6 +301,28 @@ background-color:white;
         display:initial;
         
     }
+    .nav-sub-bar form{
+        margin-right: 0rem;
+        width: 12rem;
+        display:flex
+       /* border: 1px solid red; */
+    }
+
+
+    .nav-sub-bar form input{
+         /* border: 1px solid red; */
+        font-size: 0.8rem;
+        width: 80%;
+        padding: 0.2rem 0.2rem;
+        background-color: rgb(248, 246, 246);
+    }
+    .nav-btn{
+        font-size: 0.7rem;
+    }
+    
+    .nav-btn-two{
+  font-size: 0.7rem;
+    }
 }
 
 @media (min-width:481px){
@@ -323,9 +344,7 @@ background-color:white;
     .nav-sub-bar{
         /* border: 1px solid rgb(0, 26, 255); */
     }
-    .nav-sub-bar form{
-        margin-right: 0rem;
-    }
+   
     .nav-sub-bar form i{
         display: initial;
         
@@ -335,13 +354,21 @@ background-color:white;
         top: 10vh;
     }
     .nav-sub-bar form{
-        padding: 0rem 0.2rem;
-        margin: 0rem 0.3rem;
         margin-right: 0.2rem;
+        width: 12rem;
+        display:flex
+       /* border: 1px solid red; */
     }
+
+
     .nav-sub-bar form input{
-        padding: 0.3rem 0.3rem;
+         /* border: 1px solid red; */
+        font-size: 0.8rem;
+        width: 80%;
+        padding: 0.2rem 0.2rem;
+        background-color: rgb(248, 246, 246);
     }
+  
   
   .nav-btn{
         font-size: 0.8rem;

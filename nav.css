@@ -116,7 +116,7 @@ margin: 0.2rem;
 
 
 .toggel-bar-nav li {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     color: rgb(85, 88, 105);
    padding: 0.5rem 2rem;
    transition: 0.5s ease-in-out;

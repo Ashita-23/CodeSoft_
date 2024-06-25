@@ -1,0 +1,496 @@
+.carousel-section{
+    /* border: 1px solid red; */
+    width: 99vw;
+    /* margin-bottom:50%; */
+    overflow: hidden;
+}
+
+.carousel_slide{
+    /* border: 1px solid rgb(0, 255, 21); */
+    width: 100%;
+    height: 80vh;
+    /* display: flex; */
+    position: relative;
+    overflow: hidden;
+}
+.carousel_inner{
+    /* border: 1px solid red; */
+    display: flex;
+    position: absolute;
+    height: 80vh;
+    transition: 1s ease-in-out;
+}
+.carousel_item {
+    /* border: 1px solid red; */
+    width: 99vw;
+    display: flex;
+    position: relative;
+}
+
+.carousel_img{
+    width:100vw ;
+    filter:  contrast(105%);
+}
+
+.carousel_caption{
+position: absolute;
+top:30%;
+left: 15%;
+color: white;
+/* border: 1px solid white; */
+width: 70%;
+font-family: "Roboto Slab", serif;
+} 
+.carousel_text{
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.carousel_btn_box{
+    /* border: 1px solid rgb(68, 0, 255); */
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 22%;
+}
+.carousel_btn{
+   background-color: white;
+   border: none;
+   border-radius: 50%;
+   padding:0.5rem 1rem;
+   font-size: 1rem;
+   /* color: rgb(218, 12, 12); */
+   margin: 0rem 10%;
+ 
+}
+
+.carousel_indicators{
+    /* border: 1px solid rgb(68, 0, 255); */
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    margin-top: 45%;
+}
+.carousel_indicator_btn{
+    border: none;
+    border-radius: 50%;
+    padding: 0.3rem;
+    margin: 0rem 0.4rem;
+    background-color: rgb(173, 172, 172);
+}
+
+.active_indicator_btn{
+    background-color: rgb(252, 251, 251);
+
+}
+
+@media (min-width:260px){
+    .carousel-section{
+        /* border: 1px solid red; */
+        width:100%;
+        /* margin-bottom:50%; */
+    }
+    .carousel_slide{
+        /* border: 1px solid rgb(0, 255, 21); */
+        width: 100%;
+        height: 40vh;
+    }
+    .carousel_inner{
+        /* border: 1px solid red; */
+        height: 40vh;
+    }
+    .carousel_item {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    .carousel_img{
+        width:100vw ;
+    }
+    .carousel_caption{
+        top:12vh;
+        /* border: 1px solid red; */
+       
+    } 
+    .carousel_text{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .carousel_btn_box{
+        /* border: 1px solid rgb(68, 0, 255); */
+        margin-top: 16vh;
+    }
+    .carousel_btn{
+       border-radius: 50%;
+       padding:0.3rem 0.6rem;
+       font-size: 0.6rem;
+       /* color: rgb(218, 12, 12); */
+       margin: 0rem 5%;
+     
+    }
+    .carousel_indicators{
+        /* border: 1px solid rgb(68, 0, 255); */
+        top: 20vh;
+        /* margin-top: 45%; */
+    }
+}
+@media (min-width:320px){
+    .carousel-section{
+        /* border: 1px solid red; */
+        width:100%;
+        /* margin-bottom:50%; */
+    }
+    .carousel_slide{
+        /* border: 1px solid rgb(0, 255, 21); */
+        width: 100%;
+        height: 40vh;
+    }
+    .carousel_inner{
+        /* border: 1px solid red; */
+        height: 40vh;
+    }
+    .carousel_item {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    .carousel_img{
+        width:100vw ;
+    }
+    .carousel_caption{
+        top:12vh;
+        /* border: 1px solid red; */
+    } 
+    .carousel_text{
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    .carousel_btn_box{
+        /* border: 1px solid rgb(68, 0, 255); */
+        margin-top: 18vh;
+    }
+    .carousel_btn{
+      
+       padding:0.3rem 0.8rem;
+       font-size: 0.7rem;
+       /* color: rgb(218, 12, 12); */
+       margin: 0rem 5%;
+     
+    }
+    .carousel_indicators{
+        /* border: 1px solid rgb(68, 0, 255); */
+        /* top: 20vh; */
+        margin-top: 16vh;
+    }
+}
+@media (min-width:481px){
+    .carousel-section{
+        /* border: 1px solid red; */
+        width:100%;
+        /* margin-bottom:50%; */
+    }
+    .carousel_slide{
+        /* border: 1px solid rgb(0, 255, 21); */
+        width: 100%;
+        height: 40vh;
+    }
+    .carousel_inner{
+        /* border: 1px solid red; */
+        height: 40vh;
+    }
+    .carousel_item {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    .carousel_img{
+        width:100vw ;
+    }
+    .carousel_caption{
+        top:12vh;
+        /* border: 1px solid red; */
+    } 
+    .carousel_text{
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    .carousel_btn_box{
+        /* border: 1px solid rgb(68, 0, 255); */
+        margin-top: 16vh;
+    }
+    .carousel_btn{
+      
+       padding:0.4rem 0.8rem;
+       font-size: 0.8rem;
+       /* color: rgb(218, 12, 12); */
+       margin: 0rem 5%;
+     
+    }
+    .carousel_indicators{
+        /* border: 1px solid rgb(68, 0, 255); */
+        /* top: 20vh; */
+        margin-top: 16vh;
+    }
+}
+@media (min-width:580px){
+    .carousel-section{
+        /* border: 1px solid red; */
+        width:100%;
+        /* margin-bottom:50%; */
+    }
+    .carousel_slide{
+        /* border: 1px solid rgb(0, 255, 21); */
+        width: 100%;
+        height: 40vh;
+    }
+    .carousel_inner{
+        /* border: 1px solid red; */
+        height: 40vh;
+    }
+    .carousel_item {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    .carousel_img{
+        width:100vw ;
+    }
+    .carousel_caption{
+        top:12vh;
+        /* border: 1px solid red; */
+    } 
+    .carousel_text{
+        font-size: 1.5rem;
+        font-weight: 400;
+        /* color: red; */
+    }
+    .carousel_btn_box{
+        /* border: 1px solid rgb(68, 0, 255); */
+        margin-top: 16.5vh;
+    }
+    .carousel_btn{
+      
+       padding:0.3rem 0.8rem;
+       font-size: 0.8rem;
+       /* color: rgb(218, 12, 12); */
+       margin: 0rem 5%;
+     
+    }
+    .carousel_indicators{
+        /* border: 1px solid rgb(68, 0, 255); */
+        /* top: 20vh; */
+        margin-top: 16vh;
+    }
+}
+@media (min-width:769px){
+    .carousel-section{
+        /* border: 1px solid red; */
+        width:100%;
+        /* margin-bottom:50%; */
+    }
+    .carousel_slide{
+        /* border: 1px solid rgb(0, 255, 21); */
+        width: 100%;
+        height: 40vh;
+    }
+    .carousel_inner{
+        /* border: 1px solid red; */
+        height: 40vh;
+    }
+    .carousel_item {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    .carousel_img{
+        width:100vw;
+    }
+    .carousel_caption{
+        top:11vh;
+        width: 70%;
+        /* border: 1px solid red; */
+    } 
+    .carousel_text{
+        font-size: 1.8rem;
+        font-weight: 400;
+        /* color: red; */
+    }
+    .carousel_btn_box{
+        /* border: 1px solid rgb(68, 0, 255); */
+        margin-top: 16.5vh;
+        /* align-items: center; */
+    }
+    .carousel_btn{
+      
+       padding:0.3rem 0.8rem;
+       font-size: 1rem;
+       /* color: rgb(218, 12, 12); */
+       margin: 0rem 5%;
+     
+    }
+    .carousel_indicators{
+        /* border: 1px solid rgb(68, 0, 255); */
+        /* top: 20vh; */
+        margin-top: 16vh;
+    }
+}
+@media (min-width:1025px){
+    .carousel-section{
+        /* border: 1px solid red; */
+        width:100%;
+        /* margin-bottom:50%; */
+    }
+    .carousel_slide{
+        /* border: 1px solid rgb(0, 255, 21); */
+        width: 100%;
+        height: 40vh;
+    }
+    .carousel_inner{
+        /* border: 1px solid red; */
+        height: 40vh;
+    }
+    .carousel_item {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    .carousel_img{
+        width:100vw ;
+    }
+    .carousel_caption{
+        top:10vh;
+        width: 50%;
+        left: 25%;
+        /* border: 1px solid red; */
+    } 
+    .carousel_text{
+        font-size: 1.8rem;
+        font-weight: 400;
+        /* color: red; */
+    }
+    .carousel_btn_box{
+        /* border: 1px solid rgb(68, 0, 255); */
+        margin-top: 16.5vh;
+        /* align-items: center; */
+    }
+    .carousel_btn{
+      
+       padding:0.3rem 0.8rem;
+       font-size: 1.1rem;
+       /* color: rgb(218, 12, 12); */
+       margin: 0rem 5%;
+     
+    }
+    .carousel_indicators{
+        /* border: 1px solid rgb(68, 0, 255); */
+        /* top: 20vh; */
+        margin-top: 16vh;
+    }
+}
+@media (min-width:1201px){
+    .carousel-section{
+        /* border: 1px solid red; */
+        width:100%;
+        /* margin-bottom:50%; */
+    }
+    .carousel_slide{
+        /* border: 1px solid rgb(0, 255, 21); */
+        width: 100%;
+        height: 60vh;
+    }
+    .carousel_inner{
+        /* border: 1px solid red; */
+        height: 60vh;
+    }
+    .carousel_item {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    .carousel_img{
+        width:100vw ;
+    }
+    .carousel_caption{
+        top:20vh;
+        width: 50%;
+        left: 25%;
+        /* border: 1px solid red; */
+    } 
+    .carousel_text{
+        font-size: 2.2rem;
+        font-weight: 400;
+        /* color: red; */
+    }
+    .carousel_btn_box{
+        /* border: 1px solid rgb(68, 0, 255); */
+        margin-top: 25.8vh;
+        /* align-items: center; */
+    }
+    .carousel_btn{
+      
+       padding:0.3rem 0.8rem;
+       font-size: 1.1rem;
+       /* color: rgb(218, 12, 12); */
+       margin: 0rem 5%;
+     
+    }
+    .carousel_indicators{
+        /* border: 1px solid rgb(68, 0, 255); */
+        /* top: 20vh; */
+        margin-top:35vh;
+    }
+}
+@media (min-width:1500px){
+    .carousel-section{
+        /* border: 1px solid red; */
+        width:99vw;
+        /* margin-bottom:50%; */
+    }
+    .carousel_slide{
+        /* border: 1px solid rgb(0, 255, 21); */
+        width: 100%;
+        height: 60vh;
+    }
+    .carousel_inner{
+        /* border: 1px solid red; */
+        height: 60vh;
+    }
+    .carousel_item {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    .carousel_img{
+        width:100vw ;
+    }
+    .carousel_caption{
+        top:20vh;
+        width: 50%;
+        left: 25%;
+        /* border: 1px solid red; */
+    } 
+    .carousel_text{
+        font-size: 2.4rem;
+        font-weight: 400;
+        /* color: red; */
+    }
+    .carousel_btn_box{
+        /* border: 1px solid rgb(68, 0, 255); */
+        margin-top: 25.8vh;
+        /* align-items: center; */
+    }
+    .carousel_btn{
+      
+       padding:0.3rem 0.8rem;
+       font-size: 1.1rem;
+       /* color: rgb(218, 12, 12); */
+       margin: 0rem 5%;
+     
+    }
+    .carousel_indicators{
+        /* border: 1px solid rgb(68, 0, 255); */
+        /* top: 20vh; */
+        margin-top:35vh;
+    }
+}

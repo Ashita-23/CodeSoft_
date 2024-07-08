@@ -1,0 +1,78 @@
+.projects-outer{
+    border: 1px solid rgb(19, 2, 245);
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center ;
+    justify-content: space-around;
+    padding: 1rem;
+           }
+
+           .pojects-inner-prime{
+            border: 1px solid red;
+            display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center ;
+    justify-content: space-around;
+
+           }
+     .projects-img{
+
+     }
+     .projects-btn-box{
+     
+     }
+     
+     .projects-btn{
+      border: none;
+      border-radius: 50%;
+      font-size: 1.1rem;
+      padding: 0.6rem 0.9rem;
+      background: #b3dabe;
+      margin: 0.5rem 1rem ;
+     }
+
+
+
+
+
+
+
+           .pojects-inner{
+            border: 1px solid rgb(19, 2, 245);
+            width: 60%;
+            /* display: grid;
+            grid-template-columns: auto auto auto auto; */
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center ;
+            justify-content: space-around;
+            overflow: hidden;
+           }
+           .pojects-slider{
+            border: 1px solid rgb(245, 38, 2);
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center ;
+            justify-content: space-around;
+            
+           }
+           .pro-cards-outer{
+            border: 1px solid rgb(19, 2, 245);
+            width: 16rem;
+            margin: 0.1rem 0.5rem;
+           }
+           .pro-cards-img{
+            border: 1px solid rgb(19, 2, 245);
+            height: 10rem;
+            width: 99%;
+            background-color: gray;
+           }
+           .pro-card-text-box{
+            border: 1px solid rgb(19, 2, 245);
+        
+           }

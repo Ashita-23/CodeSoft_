@@ -1,0 +1,12 @@
+
+.home-outer{
+    border: 1px solid red;
+}
+.home-inner{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-items: center ;
+    justify-content: space-around;
+}

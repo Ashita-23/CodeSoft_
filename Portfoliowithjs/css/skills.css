@@ -1,0 +1,37 @@
+.skills-outer{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center ;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.skills-inner-prime{
+    border: 1px solid red;
+    display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center ;
+justify-content: space-around;
+/* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+}
+
+.skills-inner{
+    border: 1px solid red;
+}
+.skills-slider{
+    border: 1px solid red;
+}
+.skills-slider img {
+    margin: 0.5rem;
+}
+.image-one{
+height: 50px;
+}
+.image-two{
+height: 60px;
+}
+.image-three{
+height: 40px;
+}

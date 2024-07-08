@@ -1,0 +1,45 @@
+
+body{
+    background-color:#ffffff;;
+    /* background-color:#b2fdea;; */
+    /* background-color: #240A34; */
+    /* background-color: #fdd5e5; */
+    /* color: rgb(121, 44, 44); */
+    /* color:#240A34; */
+    /* color:#7ED7C1; */
+    color: #000000;
+
+        font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        /* font-weight: <weight>; */
+        font-style: normal;
+    
+}
+.heading{
+font-size: 2rem;
+font-weight: 600;
+padding: 0;
+margin: 0;
+}
+.sub-heading{
+font-size: 1.5rem;
+padding: 0;
+margin: 0;
+}
+.footer{
+    text-align: center;
+    font-size: 0.8rem;
+    background: #b3dabe;
+}
+
+.pro-btn{
+
+    border: none;
+    font-size: 0.8rem;
+    background: #b3dabe;
+    padding: 0.6rem 1.4rem;
+    border-radius: 5px;
+    margin: 0.2rem;
+    letter-spacing: 0.5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

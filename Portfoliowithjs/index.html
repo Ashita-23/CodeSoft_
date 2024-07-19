@@ -13,6 +13,7 @@
     <!-- Css style sheet -->
     <link href="./index.css" rel="stylesheet" />
     <link href="./css/nav.css" rel="stylesheet" />
+    <link href="./css/smallNav.css" rel="stylesheet" />
     <link href="./css/home.css" rel="stylesheet" />
     <link href="./css/about.css" rel="stylesheet" />
     <link href="./css/skills.css" rel="stylesheet" />
@@ -23,21 +24,40 @@
      </style>
     <title>Ashita</title>
 </head>
-<body>
-    <nav id="nav" class="nav-main">
+<body  >
+     <nav id="nav" class="nav-main">
         <ul class="nav-ul">
-            <li><a>Home</a></li>
-            <li><a>About</a></li>
-            <li><a>Skills</a></li>
-            <li><a>Projects</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
             
         </ul>
-    </nav>
+    </nav> 
+ <nav id="small-nav" class="small-nav-main">
+       <span class="small-nav-text">Ashita</span> <button onclick=openNav() id="open-nav" ><i class="fa-solid fa-bars"  ></i></button>
+       <button  id="close-nav" onclick=closeNav() ><i class="fa-solid fa-bars-staggered" ></i></button>
+        <ul class="small-nav-ul">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+        </ul>
+    </nav> 
     <section class="home-outer" id="home">
         <div class="home-inner">
-            <div class="home-text">
-                <p><span>Hi</span>i am Ashita.</p>
-                <p>Front-End Developer</p>
+            <div class="home-text-outer">
+             <div class="home-text-box">
+                <p class="home-intro-text">Hi , I'm</p>
+                <ul class="home-ul">
+                    <li>Web Developer</li>
+                    <li>Front-End Developer</li>
+                    <li>React Developer</li>
+                </ul>
+            </div>
             </div>
             <img src="./assets/projectspng/home.png" style="height: 250px;" class="home-img">
         </div>
@@ -47,30 +67,10 @@
             <img class="about-img" src="./assets/projectspng/about.png" style="height: 250px;">
             <div class="about-text-box">
                 <p class="heading">About</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate esse aspernatur voluptatem. 
-                    Inventore molestiae vero voluptatem quis officia eveniet, sint, obcaecati voluptatibus quibusdam nostrum dicta.</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quis quia id eveniet, pariatur eius?</p>
+                <p class="about-text">I am Self taught Frontend Developer.I have intermediate level of skill in React | Javascript | Tailwind | Bootstrap | Css | Html | Git And Github.I also have beginner level skill in React-Router and Redux toolkit.</p>
+                <p class="about-text">I am collaborative, team player, and proficient in working with interdisciplinary teams and executing goal-oriented projects. Strongly interested in obtaining a Frontend Developer position to enhancing my skills and knowledge.</p>
                     <button class="about-btn">Resume</button>
             </div>
-        </div>
-    </section>
-    <section class="skills-outer" id="skills">
-        <div class="skills-inner-prime">
-            <p class="heading">Skills</p>
-        <img src="./assets/projectspng/skills.png" style="height: 250px;">
-        </div>
-        <div class="skills-inner">
-            <div class="skills-slider">
-      <img src="./assets/html-5.png" class="image-one"/>  
-      <img src="./assets/css-3.png" class="image-one"/>  
-      <img src="./assets/tailwind.png" class="image-three"/>  
-      <img src="./assets/bootstrap.png" class="image-one"/>  
-      <img src="./assets/js.png" class="image-one"/>  
-      <img src="./assets/atom.png" class="image-two"/>  
-      <img src="./assets/reactRD.png" class="image-one" />  
-      <img src="./assets/reduxlogo.png" class="image-one"/>  
-      <img src="./assets/git.png" class="image-one"/>  
-    </div>
         </div>
     </section>
     <section class="projects-outer" id="projects">
@@ -78,58 +78,142 @@
         <p class="heading">Projects</p>
         <img class="projects-img" src="./assets/projectspng/projects.png" style="height: 250px;"/>
         <div class="projects-btn-box">
-        <button class="projects-btn" id="pro-btn-left"><i class="fa-solid fa-angle-left"></i></button>
-        <button class="projects-btn" id="pro-btn-right"><i class="fa-solid fa-angle-right"></i></button>
+        <button class="projects-btn" id="pro-btn-left" onclick=set_track_left()><i class="fa-solid fa-angle-left"></i></button>
+        <button class="projects-btn" id="pro-btn-right" onclick=set_track_right()><i class="fa-solid fa-angle-right"></i></button>
     </div>
         </div>
-        <!-- C:\Users\INTEL\OneDrive\Desktop\Aashita\react-and-js-Newprojects\New-React-App\Assingments\landingPage\Portfoliowithjs\assets\projectspng\projects.png -->
+
         <div class="pojects-inner">
         <div class="pojects-slider">
         <div class="pro-cards-outer">
-        <div class="pro-cards-img" ></div>
+        <img class="pro-cards-img" src="assets/projectsjpg/Netflix.png" >
+        <div class="pro-card-text-box">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Sequi dolorem perferendis id. Totam, necessitatibus itaque!</p>
+        </div>
+         </div>
+        <div class="pro-cards-outer">
+            <img class="pro-cards-img" src="assets/projectsjpg/swiggy.png" >
         <div class="pro-card-text-box">
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolorem perferendis id. Totam, necessitatibus itaque!</p>
         </div>
          </div>
         <div class="pro-cards-outer">
-        <div class="pro-cards-img"></div>
+            <img class="pro-cards-img" src="assets/projectsjpg/portfolio.png" >
         <div class="pro-card-text-box">
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolorem perferendis id. Totam, necessitatibus itaque!</p>
         </div>
          </div>
         <div class="pro-cards-outer">
-        <div class="pro-cards-img"></div>
+            <img class="pro-cards-img" src="assets/projectsjpg/landingpage.png" >
         <div class="pro-card-text-box">
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolorem perferendis id. Totam, necessitatibus itaque!</p>
         </div>
-         </div>
+        </div>
         <div class="pro-cards-outer">
-        <div class="pro-cards-img"></div>
+            <img class="pro-cards-img" src="assets/projectsjpg/newone.png" >
         <div class="pro-card-text-box">
          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolorem perferendis id. Totam, necessitatibus itaque!</p>
         </div>
         </div>
-         </div>
-            
+         </div>   
         </div>
     </section>
+    <section class="skills-outer" id="skills">
+        <div class="skills-inner">
+        <div class="skills-inner-prime">
+            <p class="heading">Skills</p>
+        <img src="./assets/projectspng/skills.png" style="height: 250px;">
+        </div>
+        <div class="skills-containor" style="--time:20s">
+            <!-- <div class="skills-slider"> -->
+                    <div class="skills-card"> 
+                        <span>Html</span><img src="./assets/html-5.png" class="image-one"/>  
+                    </div>
+                    <div class="skills-card"> 
+                        <span>Css</span><img src="./assets/css-3.png" class="image-one"/>  
+                   </div>
+                    <div  class="skills-card "  >
+                         <span>TailwindCss</span><img src="./assets/tailwind.png" class="image-three"/> 
+                         </div>
+                    <div  class="skills-card " >
+                         <span>Bootstrap</span><img src="./assets/bootstrap.png" class="image-one"/> 
+                         </div>
+                    <div  class="skills-card " >
+                         <span>Javascript</span><img src="./assets/js.png" class="image-one"/>  
+                        </div>
+                    <div  class="skills-card " >
+                         <span>React</span><img src="./assets/atom.png" class="image-two"/>  
+                        </div>
+                    <div  class="skills-card " >
+                         <span>React Router</span><img src="./assets/reactRD.png" class="image-one" /> 
+                         </div>
+                    <div  class="skills-card " >
+                         <span>Redux Toolkit</span><img src="./assets/reduxlogo.png" class="image-one"/> 
+                         </div>
+                    <div  class="skills-card " >
+                         <span>Git</span><img src="./assets/git.png" class="image-one"/> </div>
+                     </div>
+        </div>
+    </div>
+    </section>
+ 
     <section class="contact-outer" id="contact">
         <div class="contact-inner">
-            <!-- <div class="contact-inner-prime"> -->
-       
-         <img src="./assets/projectspng/contactus.png" style="height: 250px; ">
-        <!-- </div> -->
-           <form>
-            <p class="heading">Contact  </p>
+         <img src="./assets/projectspng/contactus.png" style="height: 260px; ">
+           <form onsubmit=formSubmit(e)>
+            <p class="sub-heading">Contact  </p>
             <label>Name</label>
             <input type="text" name="name" placeholder="Enter Your Name"/>
             <label>Email</label>
             <input type="text" name="email" placeholder="Enter Your Email"/>
-            <!-- <label>Submit</label> -->
             <input type="submit" class="pro-btn"/>
            </form>
         </div>
     </section>
     <section class="footer" id="footer"><i class="fa-regular fa-copyright"></i> 2024</section>
+    <script >
+        let slider_track = document.querySelector(".pojects-slider")
+        let slider_cards = document.querySelector(".pro-cards-outer")
+        let track_left_btn = document.querySelector("#pro-btn-left")
+        let track_right_btn = document.querySelector("#pro-btn-right")
+        let card_index = 0
+        // console.log( card_index,"inistial" )
+
+        function set_track_right(){
+              card_index = (card_index===4)? 0 :card_index+1
+            slider_track.style.transform=`translateX(-${card_index*20}%`
+            // console.log("hii")
+            // console.log( card_index ,"increment")
+        }
+        
+        function set_track_left(){
+              card_index = (card_index===0)? 4 :card_index-1
+            slider_track.style.transform=`translateX(-${card_index*20}%`
+            // console.log( card_index , "decrement")
+        }
+
+     
+        let open_Nav = document.getElementById("open-nav")
+        let close_Nav = document.getElementById("close-nav")
+        let small_nav_box = document.querySelector(".small-nav-ul")
+
+        function openNav(){
+            // console.log("open")
+            small_nav_box.style.transform = `translateX(${"0rem"})`
+            open_Nav.style.display="none"
+            close_Nav.style.display="initial"
+        }
+        function closeNav(){
+            // console.log("close")
+            small_nav_box.style.transform = `translateX(${"-15rem"})`
+                    open_Nav.style.display="initial"
+            close_Nav.style.display="none"
+        }
+        
+      function formSubmit(e){
+        e.pereventdefault()
+      }
+
+    </script>
 </body>
 </html>

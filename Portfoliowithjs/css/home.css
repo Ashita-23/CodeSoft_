@@ -1,12 +1,132 @@
 
 .home-outer{
-    border: 1px solid red;
+    width: 100%;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    padding-top: 6rem ;
+    padding-bottom: 2rem ;
 }
 .home-inner{
-    border: 1px solid red;
+    /* border: 1px solid rgb(45, 5, 187); */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
     align-items: center ;
     justify-content: space-around;
+}
+
+.home-text-outer{
+/* border: 1px solid red; */
+}
+
+.home-text-box{
+    /* border: 1px solid rgb(21, 255, 0); */
+    display:flex;
+    padding: 0.2rem 0.2rem;
+
+}
+
+.home-intro-text{
+    /* border: 1px solid red; */
+    font-size: 1.4rem;
+    font-weight: 800;
+    padding: 0.2rem;
+
+}
+
+.home-ul{
+    /* border: 1px solid rgb(55, 0, 255); */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 1.5rem;
+    overflow: hidden;
+    margin-left: 0.2rem;
+    margin-top: 30px;
+    transform: translateY();
+   
+
+}
+.home-ul li {
+    /* border: 1px solid red; */
+    font-size: 1.2rem;
+    position: relative;
+    padding: 0rem;
+    top: 0;
+    font-weight: 800;
+    color: rgb(7, 107, 4);
+    animation: slider 15s steps(3) infinite;
+}
+@keyframes slider {
+    100%{
+        top: -80px;
+    }
+}
+
+.home-ul li::after{
+    left: 0;
+  content: "";    
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-left: 2px solid rgb(7, 107, 4);
+  animation: typetext 5s  steps(19) infinite;
+}
+
+@keyframes typetext {
+    40%,
+    60%{
+   left: calc(100%);
+    }
+    100%{
+        left: 0;
+    }
+}
+
+/* media query */
+
+@media (min-width:260px) {
+    
+/* .home-outer{
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding-top: 6rem ;
+    padding-bottom: 2rem ;
+}
+.home-inner{
+    border: 1px solid rgb(45, 5, 187);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    align-items: center ;
+    justify-content: space-around;
+}
+.home-text-outer{
+    border: 1px solid red;
+    } */
+}
+@media (min-width:320px){
+
+}
+@media (min-width:480px){
+
+}
+@media (min-width:500px){
+
+}
+@media (min-width:769px){
+
+}
+@media (min-width:1025px){
+
+}
+@media (min-width:1201px){
+
+}
+@media (min-width:1500px){
+    .home-outer{
+        /* border: 1px solid red; */
+        width: 99vw;
+    }
 }

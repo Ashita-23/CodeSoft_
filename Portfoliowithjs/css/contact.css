@@ -1,9 +1,18 @@
 .contact-outer{
-    border: 1px solid green;
-    padding: 1rem;
+  width: 100%;
+    /* border: 1px solid green; */
+    padding: 2rem 0rem;
+      background: #b3dabe;
+      display: flex;
+      align-items: center ;
+      justify-content: space-around;
+      padding-top: 4rem ;
+      padding-bottom: 2rem ;
+   
 }
 .contact-inner{
-  border: 1px solid green;
+  /* border: 1px solid green; */
+  width: 100%;
   display: flex;
 flex-direction: row;
 flex-wrap: wrap;
@@ -11,21 +20,98 @@ align-items: center ;
 justify-content: space-around;
 padding: 1rem 0rem; 
 }
-.contact-inner-prime{
+/* .contact-inner-prime{
   border: 1px solid green;
   display: flex;
 flex-direction: column;
 flex-wrap: wrap;
 align-items: center ;
 justify-content: space-around;
-}
+} */
   form {
-    width: 22rem;
-    border: 1px solid green;
+    width: 15rem;
+    /* border: 1px solid green; */
+    border-radius: 8px;
+    box-shadow: rgba(73, 73, 73, 0.2) 0px 2px 8px 0px;
     display:flex;
     flex-direction: column;
+    justify-content: space-around;
+    padding: 0.8rem 1rem;
   }
 
   form label{
-
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0.6rem 0.2rem;
+   
   }
+  input[type="text"]{
+    background: #b3dabe;
+    padding: 0.4rem 0.1rem;
+    border: none;
+    border-left: 2px solid green;
+    color: rgb(3, 90, 3);
+    outline: none;
+    font-size: 0.9rem;
+    margin: 0rem 0.3rem;
+  }
+  input[type="submit"]{
+   margin: 0.6rem 0.3rem;
+   box-shadow:none;
+   font-weight: 600;
+   color: rgb(7, 78, 7);
+   /* border: 1px solid rgb(7, 82, 7); */
+   /* background-color: rgb(7, 82, 7); */
+  }
+  input[type="submit"]:hover{
+    box-shadow: rgba(73, 73, 73, 0.2) 0px 2px 8px 0px;
+  }
+
+  /* media query */
+
+@media (min-width:260px) {
+  /* .contact-outer{
+    border: 1px solid rgb(2, 0, 128);
+    padding: 2rem 0rem;
+      background: #b3dabe;
+      display: flex;
+      align-items: center ;
+      justify-content: space-around;
+      padding-top: 4rem ;
+      padding-bottom: 2rem ;
+   
+}
+.contact-inner{
+  border: 1px solid rgb(128, 0, 111);
+  width: 100%;
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center ;
+justify-content: space-around;
+padding: 1rem 0rem; 
+} */
+}
+@media (min-width:320px){
+
+}
+@media (min-width:480px){
+
+}
+@media (min-width:500px){
+
+}
+@media (min-width:769px){
+
+}
+@media (min-width:1025px){
+
+}
+@media (min-width:1201px){
+
+}
+@media (min-width:1500px){
+  .contact-outer{
+    width: 99vw;
+  }
+}

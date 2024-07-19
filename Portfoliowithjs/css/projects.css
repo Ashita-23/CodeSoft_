@@ -1,16 +1,20 @@
 .projects-outer{
-    border: 1px solid rgb(19, 2, 245);
+    /* border: 1px solid rgb(19, 2, 245); */
     height: auto;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center ;
     justify-content: space-around;
     padding: 1rem;
+    padding-top: 4rem ;
+    padding-bottom: 2rem ;
+    box-sizing: border-box;
            }
 
            .pojects-inner-prime{
-            border: 1px solid red;
+            /* border: 1px solid red; */
             display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -32,17 +36,12 @@
       padding: 0.6rem 0.9rem;
       background: #b3dabe;
       margin: 0.5rem 1rem ;
+      box-shadow: rgba(73, 73, 73, 0.2) 0px 2px 8px 0px;
      }
 
-
-
-
-
-
-
            .pojects-inner{
-            border: 1px solid rgb(19, 2, 245);
-            width: 60%;
+            /* border: 1px solid rgb(19, 2, 245); */
+            width: 52rem;
             /* display: grid;
             grid-template-columns: auto auto auto auto; */
             display: flex;
@@ -53,26 +52,128 @@
             overflow: hidden;
            }
            .pojects-slider{
-            border: 1px solid rgb(245, 38, 2);
+            /* border: 1px solid rgb(245, 38, 2); */
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
             align-items: center ;
             justify-content: space-around;
+            transition: ease-in 1s;
             
            }
            .pro-cards-outer{
-            border: 1px solid rgb(19, 2, 245);
+            /* border: 1px solid rgb(19, 2, 245); */
             width: 16rem;
             margin: 0.1rem 0.5rem;
            }
            .pro-cards-img{
-            border: 1px solid rgb(19, 2, 245);
+            /* border: 1px solid rgb(19, 2, 245); */
             height: 10rem;
             width: 99%;
             background-color: gray;
            }
            .pro-card-text-box{
-            border: 1px solid rgb(19, 2, 245);
+            /* border: 1px solid rgb(19, 2, 245); */
         
            }
+
+           /* media query */
+
+@media (min-width:260px) {
+      .projects-outer{
+            /* border: 1px solid rgb(19, 2, 245); */
+            padding: 0.2rem;
+            padding-top: 4rem ;
+            padding-bottom: 2rem ;
+                   }
+        
+                   .pojects-inner-prime{
+                    /* border: 1px solid red; */
+                   }
+                   
+           .pojects-inner{
+            /* border: 1px solid rgb(19, 2, 245); */
+            width: 17rem;
+           }
+}
+@media (min-width:320px){
+      .projects-outer{
+            /* border: 1px solid rgb(19, 2, 245); */
+            padding: 0.2rem;
+            padding-top: 4rem ;
+            padding-bottom: 2rem ;
+                   }
+        
+                   .pojects-inner-prime{
+                    /* border: 1px solid red; */
+                   }
+                   
+           .pojects-inner{
+            /* border: 1px solid rgb(19, 2, 245); */
+            width: 17rem;
+           }
+}
+@media (min-width:480px){
+
+}
+@media (min-width:500px){
+
+}
+@media (min-width:769px){
+
+}
+@media (min-width:880px){
+      .projects-outer{
+            /* border: 1px solid rgb(19, 2, 245); */
+            padding: 0.2rem;
+            padding-top: 4rem ;
+            padding-bottom: 2rem ;
+                   }
+        
+                   .pojects-inner-prime{
+                    /* border: 1px solid red; */
+                   }
+                   
+           .pojects-inner{
+            /* border: 1px solid rgb(19, 2, 245); */
+            width: 17rem;
+           }
+}
+@media (min-width:1025px){
+      .projects-outer{
+            /* border: 1px solid rgb(19, 2, 245); */
+            padding: 0.2rem;
+            padding-top: 4rem ;
+            padding-bottom: 2rem ;
+                   }
+        
+                   .pojects-inner-prime{
+                    /* border: 1px solid red; */
+                   }
+                   
+           .pojects-inner{
+            /* border: 1px solid rgb(19, 2, 245); */
+            width: 34rem;
+           }
+}
+@media (min-width:1201px){
+
+}
+@media (min-width:1500px){
+      .projects-outer{
+            /* border: 1px solid rgb(19, 2, 245); */
+            width: 99vw;
+            padding: 0.2rem;
+            padding-top: 4rem ;
+            padding-bottom: 2rem ;
+                   }
+        
+                   .pojects-inner-prime{
+                    /* border: 1px solid red; */
+                   }
+                   
+           .pojects-inner{
+            /* border: 1px solid rgb(19, 2, 245); */
+            width: 51rem;
+           }
+}

@@ -30,6 +30,7 @@
      }
      
      .projects-btn{
+      cursor: pointer;
       border: none;
       border-radius: 50%;
       font-size: 1.1rem;
@@ -62,6 +63,7 @@
             
            }
            .pro-cards-outer{
+            box-sizing:border-box ;
             /* border: 1px solid rgb(19, 2, 245); */
             width: 16rem;
             margin: 0.1rem 0.5rem;
@@ -76,7 +78,30 @@
             /* border: 1px solid rgb(19, 2, 245); */
         
            }
+           .pro-card-text-box p{
+            color: black;
+            font-weight: 600;
+            padding: 0rem 0.2rem;
+        
+           }
 
+           .pro-card-btn-box{
+           /* border:1px solid red; */
+           display: flex;
+           padding: 0rem 0.2rem 0.2rem 0.2rem;
+           justify-content: space-between;
+           }
+           /* media query */
+           .pro-card-btns{
+            border: none;
+            font-size: 1rem;
+              padding: 0.2rem 1rem;
+              background: #b3dabe;
+           }
+           .pro-card-btns a{
+              text-decoration: none;
+              color: rgb(7, 56, 7);
+           }
            /* media query */
 
 @media (min-width:260px) {

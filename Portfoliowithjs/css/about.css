@@ -42,6 +42,11 @@
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     transition: ease-in-out;
 }
+.about-btn a{
+    font-weight: 600;
+  color: rgb(10, 95, 10);
+    text-decoration: none;
+}
 
 .about-btn:hover{
     background: #90dda6;
